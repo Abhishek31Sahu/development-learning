@@ -1,0 +1,25 @@
+.traffic-light {
+  height: 200px;
+  width: 70px;
+  border: solid 2px black;
+  margin: 50px;
+}
+
+.light {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+#redlight {
+  background-color: red;
+}
+#yellowlight {
+  background-color: yellow;
+}
+#greenlight {
+  background-color: green;
+}
+<!DOCTYPE html>
