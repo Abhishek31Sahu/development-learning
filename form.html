@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+    <form action="result">
+      <div>
+        <label for="username">Name:</label>
+
+        <input
+          type="text"
+          placeholder="Write your name"
+          name="username"
+          id="username"
+        />
+        <br />
+        <br />
+        <label for="useremail">Email:</label>
+        <input
+          type="text"
+          placeholder="Write your email"
+          name="useremail"
+          id="useremail"
+        />
+      </div>
+      <br />
+      Message:
+      <div>
+        <textarea name="feedback" id="feedback"></textarea>
+      </div>
+      <br />
+      rate us our of &bigstar;&bigstar;&bigstar;&bigstar;&bigstar;:
+      <div>
+        <input type="radio" id="1" name="rate us" />
+        <label for="1">&bigstar;</label>
+        <br />
+        <input type="radio" id="2" name="rate us" />
+        <label for="2">&bigstar;&bigstar;</label>
+        <br />
+        <input type="radio" id="3" name="rate us" />
+        <label for="3">&bigstar;&bigstar;&bigstar;</label>
+        <br />
+        <input type="radio" id="4" name="rate us" />
+        <label for="4">&bigstar;&bigstar;&bigstar;&bigstar;</label>
+        <br />
+        <input type="radio" id="5" name="rate us" />
+        <label for="5">&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</label>
+      </div>
+      <br />
+      <button>Send your message!</button>
+    </form>
+    <br />
+    <h1>2.Form</h1>
+    <form action="result">
+      <div>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="n" />
+      </div>
+      <br />
+      <div>
+        <label for="sex">Sex :</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">female</label>
+      </div>
+      <br />
+      <div>
+        country:
+        <select id="country" name="country">
+          <option>Select an option</option>
+          <option value="IND">INDIA</option>
+          <option value="AUS">AUSTRALIA</option>
+          <option value="USA">AMERICA</option>
+          <option value="SF">SOUTH AFRICA</option>
+          <option value="RUS">RUSSIA</option>
+        </select>
+      </div>
+      <br />
+      Message:
+      <div>
+        <textarea name="feedback" id="text"></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="sub" name="subscribe" />
+        <label for="sub">Subscribe?</label>
+      </div>
+      <br />
+      <button>Sumbit</button>
+      <br />
+    </form>
+    <h1>Registeration Form</h1>
+    <form action="/select">
+      <div>
+        <input type="text" placeholder="First name" name="fm" />
+        &nbsp;&nbsp;
+        <input type="text" placeholder="Last name" />
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for gender>please select your gender</label>
+        <select id="gender" name="gender">
+          <option value="m">Male</option>
+          <option value="f">female</option>
+          <option value="o">others</option>
+        </select>
+        <br />
+        <br />
+      </div>
+      <div>
+        <label for="terms">Do you agree terms and condition</label>
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">Yes,I agree</label>
+        <br />
+        <br />
+        <br />
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button>register</button>
+    </form>
+  </body>
+</html>

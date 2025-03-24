@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  font-family: Georgia;
+  color: red;
+}
+h3 {
+  text-align: center;
+  font-family: Georgia;
+}
+p {
+  text-align: center;
+  color: brown;
+  font-family: Georgia;
+  line-height: 30px;
+}
+h4 {
+  text-align: center;
+  font-family: Georgia;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 255, 0);
+}
+textarea {
+  text-align: center;
+  font-family: Georgia;
+  color: #000;
+}
+button {
+  font-family: Georgia;
+  background-color: white;
+  color: blueviolet;
+}
+span {
+  text-decoration: underline;
+}
+/* button {
+  color: white;
+  background-color: blue;
+}
+p {
+  color: white;
+  background-color: black;
+} */
+/* color: orange;
+  text-align: center;
+  text-decoration: teal double underline;
+  font-family: League spartan;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase; */
