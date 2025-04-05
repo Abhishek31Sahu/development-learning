@@ -1,0 +1,22 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.blackborder {
+  border: 1px solid black;
+}
+.pinkbackground {
+  background-color: pink;
+}
+#btn {
+  background-color: blue;
+  color: white;
+}
+.unline {
+  text-decoration: 2px underline purple;
+}

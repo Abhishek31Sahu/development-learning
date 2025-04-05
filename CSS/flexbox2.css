@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-content: center;
+  /* align-content: flex-end; */
+  border: solid 4px paleturquoise;
+  background-color: aqua;
+  width: 900px;
+  height: 50px;
+}
+
+.container div {
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 24px;
+  line-height: 50px;
+}

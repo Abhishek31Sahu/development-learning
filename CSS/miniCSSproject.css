@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_box {
+  background: url("camera.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.main_box .btn_one {
+  position: absolute;
+  font-size: 40px;
+  color: grey;
+  transition: 0.4s;
+}
+
+.main_box .btn_one:hover {
+  box-shadow: 0 2px 2px 0.3 grey;
+  color: white;
+  font-size: 50px;
+}
+
+.sidebar_menu {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  background-color: rgba(240, 248, 255, 0.1);
+  box-shadow: 2px 2px 8px aliceblue;
+  left: -350px;
+  transition: 1s;
+}
+
+.sidebar_menu .logo {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+}
+
+.sidebar_menu .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar_menu .btn_two {
+  position: absolute;
+  font-size: 30px;
+  color: grey;
+  top: 20px;
+  left: 260px;
+  transition: 0.5s;
+}
+.sidebar_menu .btn_two:hover {
+  font-size: 40px;
+  color: white;
+}
+.menu li {
+  list-style: none;
+  font-size: 25 px;
+  color: white;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+.menu li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.social_media i {
+  color: grey;
+  padding: 5px;
+}
+
+.social_media {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+}
+
+.menu li:hover {
+  border: 2px solid aliceblue;
+  background-origin: padding-box;
+  box-shadow: 2px 2px 4px aliceblue;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .sidebar_menu {
+  left: 0px;
+}
+
+#check:checked ~ .btn_one {
+  display: none;
+}
+
+.social_media i:hover {
+  font-size: 25px;
+  color: aliceblue;
+}
